@@ -16,6 +16,7 @@ i = 0
 print("Écriture de la sortie\n")
 for ligne in fic_entree:
     for valeur in str.split(ligne,";"):
+        valeur = valeur.lower()
         if valeur not in dico:
             dico[valeur] = i
             i += 1
