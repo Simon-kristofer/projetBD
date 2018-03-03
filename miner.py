@@ -26,7 +26,7 @@ api = tweepy.API(auth)
 
 fichier = open(nomfic, "a")
 
-for tweet in tweepy.Cursor(api.search, q=requete).items(nbtweets):
+for tweet in tweepy.Cursor(api.search, q=requete, lang="fr").items(nbtweets):
     fichier.write(tweet.created_at.strftime("%d/%m/%Y-%H:%M:%S"))
     fichier.write(";")
     fichier.write(tweet.user.screen_name)
