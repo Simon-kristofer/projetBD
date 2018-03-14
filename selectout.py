@@ -13,11 +13,12 @@ minConf=int(minConf)
 
 
 fichier_in=open(sys.argv[1],"r")
-
+fichier_out=open(sys.argv[1]+".freq","w")
 for ligne in fichier_in:
 	val = str.split(ligne," ")[-1]
 	val = int(val[1:-2])	
 	if val >= minConf:
-		print (ligne[:-1])
+		 fichier_out.write(ligne)
 
 fichier_in.close()
+fichier_out.close()
