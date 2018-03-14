@@ -10,7 +10,7 @@ freq = float(sys.argv[1])
 
 try :
     freq_mot = open("frequence_mots.txt", "r")
-    mot_inutile = open("mots_inutiles.txt.out", "w")
+    mot_inutile = open("motsinutiles.txt", "w")
 except e:
     print(e)
 
