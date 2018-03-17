@@ -22,10 +22,11 @@ for ligne in ficdic :
 
 for ligne in fic:
     spl = str.split(ligne)
-    spl.pop()
+    f = spl.pop()
     for mot in spl:
         ficout.write(dico[int(mot)])
         ficout.write(";")
+    ficout.write(f)
     ficout.write("\n")
 
 fic.close()
