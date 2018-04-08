@@ -1,0 +1,21 @@
+twitminer analyse 10 regle 
+
+sujet starwars nombre de tweet 2000 frequence 80
+
+10 motif:
+star 2000
+wars 2000
+rt 1299
+solo 452
+quand 410
+retour 408
+probleme 380
+film 351
+galaxie 325
+
+
+explication:
+on peut voir que les 10 mots les plus frequent sont star et wars le sujet de la recherche dans tous les twitte ce qui est logique puis on
+a rt le retwitte qui est dans la majoriter des twitte ce qui est logique puis cela devient interessant avec le motif solo qui est un personage des film
+et le hero du film qui sort en novembre ensuite quand,retour et probleme sont des motif difficile a annalyser car ils n'ont pas de sens sans phrase il faudrait
+les rajouter dans les mot indesirable puis film car starwars est un film et enfin galaxie car star wars est un film de sciece-fiction 
